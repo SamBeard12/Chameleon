@@ -8,7 +8,7 @@ after = ['cat']
 
 def ConstrainedInsert(initial, item, after, before):
     """This function takes an initial array and inserts 'item' into
-    a position that is after every element in 'before' and before all the
+    a position that is before every element in 'before' and after all the
     elements in 'after', or raising an error if the constraints are not
     solvable """
     #Find indicies of items in the before array
